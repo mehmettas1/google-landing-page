@@ -31,7 +31,7 @@ ul li {
     display: inline-block;
 }
 
-header ul li a {
+ul li a {
     color: black;
     padding: 0.5rem;
     opacity: 0.8;
@@ -57,7 +57,7 @@ header ul li a {
     box-shadow: rgb(211, 211, 211) 6px 3px 5px;
     
 }
-header ul li a:hover {
+ul li a:hover {
     text-decoration: underline;
 }
 
@@ -98,9 +98,7 @@ header ul li a:hover {
   vertical-align: middle;
 }
 
-.main__buttons {
 
-}
 
 .main__button--left,
 .main__button--right {
@@ -118,4 +116,40 @@ header ul li a:hover {
     border: 1px solid #d3d3d3;
     box-shadow: rgb(211, 211, 211) 1px 1px 10px;
     cursor: pointer;
+}
+
+.main__language a:hover{
+   text-decoration: none;
+}
+
+
+/* !! FOOTER   */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #dadce0;
+    width: 100%;
+
+}
+
+.footer__country {
+    font-size: 14px;
+    padding-left: 20px;
+    border-bottom: #f2f2f2;
+
+}
+
+.footer__bottom--left {
+    float: left;
+    
+}
+
+.footer__bottom--right {
+    float: right;
+    
+}
+
+.footer__bottom ul {
+    padding: 50px;
 }
