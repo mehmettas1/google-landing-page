@@ -97,3 +97,16 @@ header ul li a:hover {
   width: 15px;
   vertical-align: middle;
 }
+
+.main__buttons {
+
+}
+
+.main__button--left,
+.main__button--right {
+    width: 122px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    
+}
