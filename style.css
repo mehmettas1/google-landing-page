@@ -104,9 +104,18 @@ header ul li a:hover {
 
 .main__button--left,
 .main__button--right {
-    width: 122px;
+    width: 146px;
     height: 36px;
     border: none;
     border-radius: 2px;
-    
+    background-color: #F8F9FA;
+    margin: 30px 0;
+    padding: 0 16px;
+}
+
+.main__button--left:hover ,
+.main__button--right:hover {
+    border: 1px solid #d3d3d3;
+    box-shadow: rgb(211, 211, 211) 1px 1px 10px;
+    cursor: pointer;
 }
